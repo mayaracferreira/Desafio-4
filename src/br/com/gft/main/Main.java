@@ -46,7 +46,7 @@ public class Main {
 		
 		americanas.listLivro();
 		americanas.listVideoGame();
-		//americanas.calcularPatrimonio();
+		americanas.calcularPatrimonio();
 		
 		
 		

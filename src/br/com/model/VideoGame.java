@@ -52,14 +52,14 @@ public double calcularImposto () {
 	   
 	   double imp = 0;
 	   if (this.isUsado == true) {
-		   imp= this.getPreco() + (this.getPreco ()* 25/100); 
+		   imp= (this.getPreco ()* 0.25); 
 		   
 		   System.out.println ( "Imposto " + this.modelo + " usado, R$" + imp );
 		   return 0;
 	   }
 		   else {
 			
-		   imp= this.getPreco() + (this.getPreco ()* 45/100); 
+		   imp= (this.getPreco ()* 0.45); 
 			  
 			  System.out.println( "Imposto " + this.modelo +" R$" + imp );
 		   return imp;

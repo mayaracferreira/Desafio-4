@@ -59,8 +59,8 @@ public double calcularImposto () {
 	}	   
 	else {
 		
-		System.out.println("R$" +this.getPreco() + " de imposto sobre o livro " + this.getNome());
-		imp= this.getPreco() + (this.getPreco ()* 10/100); 
+		imp= (this.getPreco ()* 0.10); 
+		System.out.println("R$" + imp  + " de imposto sobre o livro " + this.getNome());
 		return imp;
 	}
 	
